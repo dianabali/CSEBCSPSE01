@@ -28,6 +28,5 @@ Before starting, make sure you have `node.js` installed in your computer. If not
 7. Run `npm start`. The application will run automatically in your browser, otherwise click on the link `http://localhost:3000`.
 
 ## User Interface
-## Features
 ![Screenshot](./img/ui.png)
 
