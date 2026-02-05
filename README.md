@@ -21,7 +21,7 @@ Before starting, make sure you have `node.js` installed in your computer. If not
 1. Run `npm install -g create-react-app` to install React.
 2. Run `npx create-react-app my-app`.
 3. Navigate into the `my-app` folder by running: `cd my-app`.
-4. In the `src` folder that was created, create a folder named `components` and inside create these files: `NavBar.js`, `NavBar.css`, `FilterBar.js`, `FilterBar.css`, `BoardView.js`, `BoardView.css`, `ListView.js`, `ListView.css`, `AddTaskForm.js`, and `AddTaskForm.css`.
+4. In the `src` folder that was created, create a folder named `components` and inside create these files: `Navbar.js`, `Navbar.css`, `FilterBar.js`, `FilterBar.css`, `BoardView.js`, `BoardView.css`, `ListView.js`, `ListView.css`, `AddTaskForm.js`, and `AddTaskForm.css`.
 5. Copy and paste the contents of each file of this repository into the corresponding file you created.
 6. Copy and paste the contents of `App.js` and `App.css` in this repository into the corresponding files into your application.
 7. Install lucide-react for icons using: `npm install lucide-react`
