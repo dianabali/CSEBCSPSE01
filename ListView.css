@@ -1,0 +1,135 @@
+.list-container {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border: 2px solid #e5e5dc;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  border-spacing: 0;
+}
+
+thead tr {
+  background: #fff8de !important;
+}
+
+tbody td {
+  border-bottom: 2px solid #e5e5dc;
+  padding: 12px;
+}
+
+tbody td:last-child {
+  border-right: none;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #e5e5dc;
+}
+
+.small {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: #e0e7ff;
+  border: 1px solid #6366f1;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge.backlog {
+  background: #fbfbfa;
+  border: 2px solid #e5e7eb; 
+  color: #364153;
+}
+
+.badge.to-do {
+  background: #f5f9fd;
+  border: 2px solid #bedbff;
+  color: #194be6;
+}
+
+.badge.in-progress {
+  background: #fff8ef;
+  border: 2px solid #ffd6a7;
+  color: #ca3500;
+}
+
+.badge.review {
+  background: #fbf7fd;
+  border: 2px solid #e9d4ff;
+  color: #9a30e2;
+}
+
+.badge.done {
+  background: #f1fcf5;
+  border: 2px solid #a2e1b8;
+  color: #008236;
+}
+
+.badge.priority.high {
+  background: #fce7f3;
+  border: 2px solid #f9a8d4;
+  color: #be185d;
+}
+
+.badge.priority.medium {
+  background: #fbf7c7;  
+  border: 2px solid #fad438;
+  color: #a16207;
+}
+
+.badge.priority.low {
+  background: #e0fae9;
+  border: 2px solid #56d785;
+  color: #15803d;
+}
+
+.tag-chip {
+  margin-right: 6px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 2px solid #e5e5dc;
+  background: #fff8de;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.actions-cell {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  border-bottom: 2px solid #e5e5dc;
+}
+
+.actions-cell button {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+tr:hover .actions-cell button {
+  opacity: 1;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+  color: #475569;
+}
+
+.icon-btn:hover {
+  color: #1d4ed8;
+}
